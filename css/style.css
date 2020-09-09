@@ -1,0 +1,514 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*global css here*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Quicksand', sans-serif;
+}
+p,input,span,button{
+    font-family: 'Roboto', sans-serif;
+    color: #4c527d;
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+.header{
+    width: 100%;
+	padding: 10px 15px;
+	
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+/*header part css here*/
+.header{
+	width: 100%;
+	padding: 20px;
+}
+.logo img{
+	vertical-align: middle;
+}
+
+.logo{
+	margin: 20px;
+}
+.logo span{
+	font-size: 26px;
+    margin-left: 10px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+/* banner section */
+.banner{
+	width: 100%;
+	display: flow-root;
+	margin-bottom: 70px;
+}
+.banner-info{
+width: 100%;
+float: left;
+}
+.banner-left{
+	width: 60%;
+	float: left;
+
+}
+.banner-right{
+	width: 40%;
+	float: right;
+}
+
+.left-content{
+	padding: 60px 25px 32px 16p;
+   
+}
+.left-content h1{
+font-size: 44px;
+}
+.left-content p{
+font-size: 22px;
+margin: 24px 0;
+color: #4c527d;
+} 
+.left-content .banner-button button{
+    padding: 20px 40px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #ed6524;
+    font-size: 18px;
+    font-weight: 600px;
+}
+.left-content .banner-button .left-btn{
+	background: #ed6524;
+  	color: white;
+}
+
+.left-content .banner-button .left-btn:hover{
+	cursor: pointer;
+}
+.left-content .banner-button .right-btn{
+background: transparent;
+color: #ed6524;
+margin-left: 20px;
+}
+.left-content .banner-button .right-btn:hover{
+	cursor: pointer;
+	background: #ed6524;
+	color: white;
+	transition: all 0.5s ease-in-out;
+}
+.comment{
+	margin: 50px 50px 0 0;
+}
+.comment-box{
+	width: 100%;
+	background: #f6f8fc;
+	padding: 20px 40px;
+	border-left: 4px solid #ed6524;
+position: relative;
+}
+.comment-box p{
+	font-size: 18px;
+    font-style: italic;
+}
+
+.comment-icon{
+	width: 40px;
+	height: 40px;
+	background: #f6f8fc;
+	position: absolute;
+	bottom: -20px;
+	left: 40px;
+	transform: rotate(45deg);
+}
+
+.comment-user{
+	width: 100%;
+	float: left;
+	margin: 40px 0 0 20px;
+}
+.user-left{
+	width: 15%;
+	float: left;
+}
+.user-right{
+	width: 80%;
+	float: right;
+}
+.user-describtion {
+	padding: 15px 0;
+}
+.user-right .user-describtion p{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 30px;
+
+}
+
+.right-content{
+	position: relative;
+}
+.book-circle{
+	width: 140px;
+	height: 140px;
+	background: green;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	right: 0;
+}
+.book-circle h3{
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+.book-link{
+	text-align: center;
+}
+.book-link a{
+	text-decoration: underline;
+	font-size: 22px;
+	color: #ed6524;
+}
+
+/*service section css here*/
+.service{
+	width: 100%;
+	display: flow-root;
+	background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+	background-repeat: repeat-x;
+	padding: 90px 0 0 10px;
+
+}
+
+.service-tittle{
+text-align: center;
+}
+.service-tittle h1{
+	font-size: 45px;
+    margin-bottom: 20px;
+}
+.service-tittle p{
+	 margin-bottom: 45px;
+    font-size: 22px;
+    color: #4c527d;
+}
+.service-gallery{
+	margin-top: 80px;
+	width: 100%;
+	float: left;
+}
+.item{
+	width: 33%;
+	float: left;
+}
+
+.item-desc{
+	text-align: center;
+	padding: 42px;
+}
+.item-desc i{
+	color: #ed6524;
+	font-size: 45px;
+}
+.item-desc h3{
+	margin: 15px 0;
+}
+
+/*included secction css here*/
+
+.included{
+	width: 100%;
+	display: flow-root;
+	padding: 50px 0;
+	text-align: center;
+}
+.included-title h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.included-details{
+	width: 100%;
+	float: left;
+}
+
+.included-left{
+	width: 50%;
+	float: left;
+}
+.included-img{
+	padding: 80px;
+}
+
+.included-right{
+	width: 50%;
+	float: left;
+}
+.list{
+	padding: 100px 40px;
+}
+.included-right i{
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	line-height: 20px;
+	background: #7FCDB8;
+	border-radius: 100%;
+	color: white;
+	margin-right: 20px;
+	font-size: 16px;
+}
+
+.included-right ul li {
+	line-height: 40px;
+	font-size: 20px;
+
+}
+.list .button{
+	margin: 30px 0;
+}
+.list button {
+	padding: 20px 40px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #ed6524;
+    font-size: 18px;
+    font-weight: 600px;
+    background: #ed6524;
+    color: white;
+}
+/*features secction css here*/
+.features{
+    width: 100%;
+    display: flow-root;
+}
+.info{
+	float: left;
+    width: 65%;
+    margin: 0 225px;
+}
+
+.info .info-left{
+    width: 5%;
+    float: left;
+    margin-left: 70px;
+}
+.info-left ul li{
+	font-size: 24px;
+	color: #7FCDB8;
+	margin-bottom: 60px;
+}
+
+.info .info-right{
+	width: 68%;
+    float: left;
+    margin-left: 6px;
+}
+.info .info-right h3{
+	color: #1c1e2e;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.info .info-right p{
+	margin-bottom: 20px;
+}
+
+/*submition section css here*/
+
+.form-section{
+	width: 100%;
+	display: flow-root;
+	padding: 50px 0;
+	text-align: center;
+
+}
+
+.form{
+	background: #e2e6ec;
+    width: 65%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 40px;
+}
+.form .btn1 {
+    outline: none;
+    height: 50px;
+    width: 340px;
+    border: 1px solid #ced0e1;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.form .btn2{
+	font-size: 18px;
+    border: none;
+    height: 50px;
+    width: 92px;
+    text-align: center;
+    border-radius: 6px;
+    background: #ed6524;
+    cursor: pointer;
+} 
+/* review section css code */
+/* same as servics */
+
+/*quote section css here*/
+
+.quote{
+	width: 100%;
+	display: flow-root;
+}
+.quote .quote-box{
+	padding: 15px 17px 15px 20px;
+    width: 28%;
+    height: 160px;
+    float: left;
+    color: #4c527d;
+    background-color: #eeedf3;
+    position: relative;
+    margin-right: 23px;
+    margin-bottom: 70px;
+}
+
+.quote-box p{
+	margin-top: 15px;
+    font-style: italic;
+}
+.quote-box img{
+	float: left;
+    width: 15%;
+    margin-top: 20px;
+}
+.quote-box .quote-icon{
+	position: absolute;
+    top: -10%;
+    right: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #f5a782;
+    text-align: center;
+    border-radius: 100%;
+    color: white;
+}
+.quote-box h4{
+	margin-top: 30px;
+    margin-left: 15px;
+    float: left;
+    font-weight: 600px;
+    font-size: 13px;
+}
+.nxt-level{
+    margin-left: 220px;
+    
+}
+.nxt-level .quote-box{
+    padding: 15px 17px 15px 20px;
+    width: 30%;
+    float: left;
+    color: #4c527d;
+    background-color: #eeedf3;
+    position: relative;
+    margin-right: 23px;
+    margin-bottom: 70px;
+}
+
+.final-btn{
+	width: 100%;
+	display: flow-root;
+	text-align: center;
+}
+
+.button button{
+
+	padding: 1px 55px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #ed6524;
+    font-size: 18px;
+    font-weight: 450;
+    background:  #ed6524;
+    color: white;
+    cursor: pointer;
+	margin-bottom: 20px;
+	height: 65px;
+	
+}
+/* footer section css */
+
+.author{
+    width: 100%;
+	background: #ED6524;
+	height: 60%;
+}
+.author-content{
+    text-align: center;
+    
+    padding: 40px 150px;
+}
+.author-content img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.author-content h2{
+    font-size: 2.25rem;
+	margin-bottom: 20px;
+	color: white;
+}
+.author-content h3{
+    margin: 20px 0 10px 0;
+	font-size: 23px;
+	color: white;
+}
+.author-content p{
+    text-align: left;
+	line-height: 1.5em;
+	color: white;
+}
+.author-content a{
+    color: #fff;
+    text-decoration: underline;
+}
+.author ul li{
+    display: inline-block;
+    background: #CA561F;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+    margin: 0 5px;
+}
+.author ul li i{
+    padding-top: 10px;
+}
+/* last section */
+
+.last{
+    background: white;
+	padding: 50px 0;
+	height: 30%;
+}
+.last-content{
+    text-align: center;
+    
+}
+.last-content a{
+    text-decoration: underline;
+}
+
+
+
+
